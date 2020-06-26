@@ -3,7 +3,8 @@ Re-learning RUST
 
 ### 目录
 - 基础篇
-    - demo1 所有权
+    - demo1 所有权 
+    - demo2 linklist
 - 中阶篇
 
 ### 参考资料

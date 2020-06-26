@@ -4,7 +4,8 @@ fn main() {
     // test2();
     // test3();
     // test4();
-    test5();
+    // test5();
+    test6();
 }
 
 // Scope
@@ -89,5 +90,25 @@ fn test5() {
         println!("x :{}",x);
     }else {
         println!("a not is Ping")
+    }
+}
+
+// slice && vec
+fn test6() {
+    let a = [1,2,3,4,5,6];
+    let b = vec![1,2,3,4,5,6];
+    println!("{}",a[0]);
+    println!("{}",b[0]);
+
+    if let Some(c) = b.get(0) {
+        println!("c: {}",c);
+    }
+
+    for i in 0..b.len() {
+        println!("k:{} val:{}",i,b[i]);
+    }
+
+    for v in b {
+        println!("v: {}",v);
     }
 }

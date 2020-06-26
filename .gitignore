@@ -11,3 +11,4 @@ Cargo.lock
 .idea
 
 /demo1/target/
+/demo2/target/
