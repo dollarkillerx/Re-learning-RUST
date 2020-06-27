@@ -9,6 +9,11 @@ Re-learning RUST
     - demo4 file
 - 中阶篇
     - demo5 trait
+    - demo6 generic 泛型
+    - demo7 特性约束,简单代理
+    - demo8 生命周期
+    - demo9 闭包
+    - demo10 迭代器
 
 ### 参考资料
 - 参考资料
