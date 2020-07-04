@@ -71,12 +71,12 @@ impl <T> List<T> {
         }
         self._size += 1;
     }
-    fn pop(&mut self) -> Option<T> {
-        // let node = &mut self._head;
+    fn pop(&mut self) -> Option<Box<&T>> {
+        let node = &mut self._head;
         match &self._head {
             Some(msg) => {
-                // *node = msg._ptr;
-                Some(msg._val)
+                node = msg._ptr;
+                Some(Box::new(&msg._val))
             },
             None => None,
         }
