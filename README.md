@@ -14,6 +14,8 @@ Re-learning RUST
     - demo8 生命周期
     - demo9 闭包
     - demo10 迭代器
+    - demo11 引用
+    - demo12 智能指针
 
 ### 参考资料
 - 参考资料
