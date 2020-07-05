@@ -22,6 +22,7 @@ Re-learning RUST
     - demo16 高阶函数 HOF
     - demo17 宏上  
     - demo18 宏下
+    - demo19 多线程
 
 ### 参考资料
 - 参考资料
