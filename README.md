@@ -1,28 +1,8 @@
-# Re-learning-RUST
-Re-learning RUST 
+# Re-learning-RUST  Async
+### 参考文献
+- [RUST异步编程](https://learnku.com/docs/async-book/2018/executor/4793)
+- [async-std document](https://book.async.rs/)
+- [tokio document](https://tokio.rs/docs/getting-started/hello-world/)
 
-### 目录
-- 基础篇
-    - demo1 所有权 
-    - demo2 linklist
-    - demo3 stdio
-    - demo4 file
-- 中阶篇
-    - demo5 trait
-    - demo6 generic 泛型
-    - demo7 特性约束,简单代理
-    - demo8 生命周期
-    - demo9 闭包
-    - demo10 迭代器
-    - demo11 引用
-    - demo12 智能指针  (mem:take mem::swap)
-    - demo13 内存模型
-    - demo14 运算符重载
-    - demo15 copy clone move
-    - demo16 高阶函数 HOF
-    - demo17 宏上  
-    - demo18 宏下
-    - demo19 多线程
-
-### 参考资料
-- 参考资料
+### RUST异步编程
+- demo1
