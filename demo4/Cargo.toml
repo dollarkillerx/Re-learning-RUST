@@ -1,5 +1,5 @@
 [package]
-name = "demo3"
+name = "demo4"
 version = "0.1.0"
 authors = ["dollarkiller <wangy@mvalley.io>"]
 edition = "2018"
@@ -9,4 +9,3 @@ edition = "2018"
 [dependencies]
 tokio = { version = "0.2", features = ["full"] }
 mini-redis = "0.2"
-bytes = "0.5" # 具有bytes引用计数器 浅克隆
